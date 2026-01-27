@@ -11,7 +11,7 @@ from urllib3.util.retry import Retry
 TEST_TIMEOUT = 3  # 测试超时时间(秒)
 TEST_PORT = 443   # 测试端口
 MAX_THREADS = 3  # 最大线程数
-TOP_NODES = 20    # 显示和保存前N个最快节点
+TOP_NODES = 40    # 显示和保存前N个最快节点
 TXT_OUTPUT_FILE = "US.txt"    # TXT结果保存文件
 
 # 国家代码到中文国家名称的映射
@@ -165,9 +165,12 @@ class CloudflareNodeTester:
             octets = base_ip.split('.')
             
             # 生成该网段的一些示例IP
-            for i in range(1, 10):  # 每个网段生成9个示例IP
-                ip = f"{octets[0]}.{octets[1]}.{octets[2]}.{i + int(octets[3])}"
+            for _ in range(20):
+                # /22 的第四段范围 0~255，避免网络地址和广播地址可选 1~254
+                fourth = random.randint(1, 254)
+                ip = f"{octets[0]}.{octets[1]}.{octets[2]}.{fourth}"
                 self.nodes.add(ip)
+
         
     
     def test_node_speed(self, ip):
@@ -264,7 +267,7 @@ class CloudflareNodeTester:
         """只保存前30名结果到TXT文件，并显示中文国家信息"""
         try:
             # 只取前30名结果
-            top_results = results[:10]  # 明确只取前30名
+            top_results = results[:100]  # 明确只取前30名
             
             with open(TXT_OUTPUT_FILE, 'w', encoding='utf-8') as f:
                 # 清空文件并只写入前30个结果
