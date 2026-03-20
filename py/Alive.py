@@ -144,7 +144,7 @@ def main(output_path: str) -> int:
 
 
 if __name__ == "__main__":
-    output = "alive.txt"
+    output = "Alive.txt"
     if len(sys.argv) > 1 and sys.argv[1].strip():
         output = sys.argv[1].strip()
     raise SystemExit(main(output))
