@@ -9,7 +9,7 @@ from urllib.request import Request, urlopen
 
 SOURCE_URL = "https://raw.githubusercontent.com/MarinaAqua/ProxyIP/main/Alive.txt"
 API_URL = "https://proxyip.snu.cc/batch"
-TARGET_COUNTRIES = ( "HK", "SG", "US")
+TARGET_COUNTRIES = ( "HK", "SG", "US", "UK, "AU")
 BATCH_SIZE = 10000
 MAX_SUCCESS_PER_GROUP = 100
 
