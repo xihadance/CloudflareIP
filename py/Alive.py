@@ -7,7 +7,7 @@ from typing import Dict, Iterable, List, Tuple
 from urllib.request import Request, urlopen
 
 
-SOURCE_URL = "https://raw.githubusercontent.com/MarinaAqua/ProxyIP/main/Alive.txt"
+SOURCE_URL = "https://raw.githubusercontent.com/MarinaAqua/ProxyIP/main/all.txt"
 API_URL = "https://proxyip.snu.cc/batch"
 TARGET_COUNTRIES = ( "HK", "SG", "US", "UK", "AU" )
 BATCH_SIZE = 10000
