@@ -69,7 +69,7 @@ def post_batch(ips: List[str], retries: int = 2) -> List[Dict]:
     )
     for attempt in range(retries + 1):
         try:
-            with urlopen(req, timeout=60) as resp:
+            with urlopen(req, timeout=300) as resp:
                 payload = resp.read().decode("utf-8", errors="replace")
             data = json.loads(payload)
             if isinstance(data, dict) and "data" in data:
