@@ -7,7 +7,7 @@ from typing import Dict, Iterable, List, Tuple
 from urllib.request import Request, urlopen
 
 
-SOURCE_URL = "https://raw.githubusercontent.com/MarinaAqua/ProxyIP/main/Alive.txt"
+SOURCE_URLS = ( "https://raw.githubusercontent.com/MarinaAqua/ProxyIP/main/Alive.txt", "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/raw/refs/heads/main/proxyList.txt" )
 API_URL = "https://proxyip.snu.cc/batch"
 TARGET_COUNTRIES = ( "HK", "SG", "US", "UK", "AU" )
 BATCH_SIZE = 10000
@@ -124,11 +124,13 @@ def filter_and_rank(rows: List[ProxyRow]) -> List[Tuple[ProxyRow, int]]:
 
 
 def main(output_path: str) -> int:
-    text = fetch_text(SOURCE_URL)
+
     groups: Dict[str, List[ProxyRow]] = defaultdict(list)
-    for row in parse_rows(text):
-        if row.country in TARGET_COUNTRIES:
-            groups[row.country].append(row)
+    for url in SOURCE_URLS:
+        text = fetch_text(url)
+        for row in parse_rows(text):
+            if row.country in TARGET_COUNTRIES:
+                groups[row.country].append(row)
 
     ordered_output: List[str] = []
     for country in TARGET_COUNTRIES:
