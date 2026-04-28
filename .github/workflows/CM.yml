@@ -23,7 +23,7 @@ jobs:
 
       - name: Run script and save output
         run: |
-          python py/CM.py > --output CM.txt --format "{$.ip},{$.port},{$.meta.country},{$.meta.asOrganization} {$.meta.city}"
+          python py/CM.py --output CM.txt --format "{$.ip},{$.port},{$.meta.country},{$.meta.asOrganization} {$.meta.city}"
 
       - name: Commit result
         run: |
