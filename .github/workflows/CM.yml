@@ -17,10 +17,6 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt || true
-
       - name: Run script and save output
         run: |
           python py/CM.py --output CM.txt --format "{$.ip},{$.port},{$.meta.country},{$.meta.asOrganization} {$.meta.city}"
@@ -29,6 +25,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add SG.txt
+          git add CM.txt
           git commit -m "Auto update CM.txt [skip ci]" || echo "No changes to commit"
           git push
