@@ -3,7 +3,7 @@ name: Alive
 on:
   push:              # 每次 push 时触发
   schedule:
-   - cron: '0 6 * * *' # 每天六点运行一次
+   - cron: '0 0 */5 * *' # 每五天运行一次
   workflow_dispatch:      # 允许手动触发
 
 jobs:
