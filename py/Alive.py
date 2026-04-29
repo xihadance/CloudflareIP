@@ -4,6 +4,7 @@ import time
 from collections import defaultdict
 from dataclasses import dataclass
 from typing import Dict, Iterable, List, Tuple
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 
@@ -12,6 +13,7 @@ API_URL = "https://proxyip.snu.cc/batch"
 TARGET_COUNTRIES = ( "HK", "SG", "US", "UK", "AU" )
 BATCH_SIZE = 2500
 MAX_SUCCESS_PER_GROUP = 100
+RETRYABLE_HTTP_STATUS_CODES = {408, 429, 500, 502, 503, 504}
 
 
 @dataclass(frozen=True)
@@ -51,9 +53,9 @@ def parse_rows(text: str) -> Iterable[ProxyRow]:
         yield ProxyRow(ip=ip, port=port, country=country, org=org)
 
 
-def post_batch(ips: List[str], retries: int = 2) -> List[Dict]:
+def build_batch_request(ips: List[str]) -> Request:
     body = json.dumps({"ips": ips}, ensure_ascii=False).encode("utf-8")
-    req = Request(
+    return Request(
         API_URL,
         data=body,
         method="POST",
@@ -67,19 +69,44 @@ def post_batch(ips: List[str], retries: int = 2) -> List[Dict]:
             "(KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36",
         },
     )
+
+
+def is_retryable_batch_error(exc: Exception) -> bool:
+    if isinstance(exc, HTTPError):
+        return exc.code in RETRYABLE_HTTP_STATUS_CODES
+    return isinstance(exc, (json.JSONDecodeError, TimeoutError, URLError))
+
+
+def post_batch(ips: List[str], retries: int = 2) -> List[Dict]:
+    if not ips:
+        return []
+
+    last_error: Exception | None = None
     for attempt in range(retries + 1):
         try:
+            req = build_batch_request(ips)
             with urlopen(req, timeout=300) as resp:
                 payload = resp.read().decode("utf-8", errors="replace")
             data = json.loads(payload)
             if isinstance(data, dict) and "data" in data:
                 return data.get("data") or []
             return []
-        except Exception:
-            if attempt >= retries:
+        except Exception as exc:
+            if not is_retryable_batch_error(exc):
                 raise
+            last_error = exc
+            if attempt >= retries:
+                break
             time.sleep(1 + attempt)
-    return []
+
+    if len(ips) == 1:
+        print(f"skip unreachable batch item {ips[0]}: {last_error}", file=sys.stderr)
+        return []
+
+    midpoint = len(ips) // 2
+    left = post_batch(ips[:midpoint], retries=retries)
+    right = post_batch(ips[midpoint:], retries=retries)
+    return left + right
 
 
 def chunked(items: List[ProxyRow], size: int) -> Iterable[List[ProxyRow]]:
