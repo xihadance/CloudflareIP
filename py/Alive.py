@@ -10,7 +10,7 @@ from urllib.request import Request, urlopen
 SOURCE_URLS = ( "https://raw.githubusercontent.com/xihadance/CloudflareIP/main/CM.txt", "https://raw.githubusercontent.com/MarinaAqua/ProxyIP/main/Alive.txt", "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/main/proxyList.txt" )
 API_URL = "https://proxyip.snu.cc/batch"
 TARGET_COUNTRIES = ( "HK", "SG", "US", "UK", "AU" )
-BATCH_SIZE = 5000
+BATCH_SIZE = 2500
 MAX_SUCCESS_PER_GROUP = 100
 
 
