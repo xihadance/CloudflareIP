@@ -147,7 +147,8 @@ def filter_and_rank(rows: List[ProxyRow]) -> List[Tuple[ProxyRow, int]]:
         # Stop further batches once we already have enough successful IPs.
         if len(results) >= MAX_SUCCESS_PER_GROUP:
             break
-    return sorted(results, key=lambda x: x[1])
+    return sorted(results, key=lambda x: x[1])[:MAX_SUCCESS_PER_GROUP]
+
 
 
 def main(output_path: str) -> int:
