@@ -2,6 +2,7 @@ import json
 import sys
 import time
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from typing import Dict, Iterable, List, Tuple
 from urllib.error import HTTPError, URLError
@@ -11,7 +12,9 @@ from urllib.request import Request, urlopen
 SOURCE_URLS = ( "https://raw.githubusercontent.com/xihadance/CloudflareIP/main/CM.txt", "https://raw.githubusercontent.com/MarinaAqua/ProxyIP/main/Alive.txt", "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/main/proxyList.txt" )
 API_URL = "https://proxyip.snu.cc/batch"
 TARGET_COUNTRIES = ( "HK", "SG", "US", "UK", "AU" )
-BATCH_SIZE = 2500
+LARGE_GROUP_BATCH_SIZE = 150
+DIRECT_REQUEST_LIMIT = 250
+COUNTRY_WORKERS = 3
 MAX_SUCCESS_PER_GROUP = 100
 RETRYABLE_HTTP_STATUS_CODES = {408, 429, 500, 502, 503, 504}
 
@@ -109,6 +112,14 @@ def post_batch(ips: List[str], retries: int = 2) -> List[Dict]:
     return left + right
 
 
+def get_batch_size(total_rows: int) -> int:
+    if total_rows <= 0:
+        return 1
+    if total_rows <= DIRECT_REQUEST_LIMIT:
+        return total_rows
+    return LARGE_GROUP_BATCH_SIZE
+
+
 def chunked(items: List[ProxyRow], size: int) -> Iterable[List[ProxyRow]]:
     for i in range(0, len(items), size):
         yield items[i : i + size]
@@ -119,8 +130,9 @@ def filter_and_rank(rows: List[ProxyRow]) -> List[Tuple[ProxyRow, int]]:
     if not rows:
         return results
 
+    batch_size = get_batch_size(len(rows))
     by_ip_port = {row.ip_port: row for row in rows}
-    for batch in chunked(rows, BATCH_SIZE):
+    for batch in chunked(rows, batch_size):
         if len(results) >= MAX_SUCCESS_PER_GROUP:
             break
         ips = [row.ip_port for row in batch]
@@ -150,6 +162,34 @@ def filter_and_rank(rows: List[ProxyRow]) -> List[Tuple[ProxyRow, int]]:
     return sorted(results, key=lambda x: x[1])[:MAX_SUCCESS_PER_GROUP]
 
 
+def get_country_workers(groups: Dict[str, List[ProxyRow]]) -> int:
+    active_group_count = sum(1 for country in TARGET_COUNTRIES if groups.get(country))
+    if active_group_count <= 1:
+        return 1
+    return min(COUNTRY_WORKERS, active_group_count)
+
+
+def rank_groups_by_country(groups: Dict[str, List[ProxyRow]]) -> Dict[str, List[Tuple[ProxyRow, int]]]:
+    ranked_by_country: Dict[str, List[Tuple[ProxyRow, int]]] = {
+        country: [] for country in TARGET_COUNTRIES
+    }
+    workers = get_country_workers(groups)
+    if workers == 1:
+        for country in TARGET_COUNTRIES:
+            ranked_by_country[country] = filter_and_rank(groups.get(country, []))
+        return ranked_by_country
+
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        future_to_country = {
+            executor.submit(filter_and_rank, groups.get(country, [])): country
+            for country in TARGET_COUNTRIES
+            if groups.get(country)
+        }
+        for future in as_completed(future_to_country):
+            country = future_to_country[future]
+            ranked_by_country[country] = future.result()
+    return ranked_by_country
+
 
 def main(output_path: str) -> int:
 
@@ -160,9 +200,10 @@ def main(output_path: str) -> int:
             if row.country in TARGET_COUNTRIES:
                 groups[row.country].append(row)
 
+    ranked_by_country = rank_groups_by_country(groups)
     ordered_output: List[str] = []
     for country in TARGET_COUNTRIES:
-        ranked = filter_and_rank(groups.get(country, []))
+        ranked = ranked_by_country[country]
         for row, latency in ranked:
             ordered_output.append(row.format_with_latency(latency))
 
