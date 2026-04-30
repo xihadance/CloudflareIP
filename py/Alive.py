@@ -9,7 +9,7 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 
-SOURCE_URLS = ( "https://raw.githubusercontent.com/xihadance/CloudflareIP/main/CM.txt", "https://raw.githubusercontent.com/MarinaAqua/ProxyIP/main/Alive.txt", "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/main/proxyList.txt" )
+SOURCE_URLS = ("https://raw.githubusercontent.com/MarinaAqua/ProxyIP/main/Alive.txt", "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/main/proxyList.txt" )
 API_URL = "https://proxyip.snu.cc/batch"
 TARGET_COUNTRIES = ( "HK", "SG", "US", "UK", "AU" )
 LARGE_GROUP_BATCH_SIZE = 150
