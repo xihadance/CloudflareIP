@@ -19,7 +19,8 @@ jobs:
 
       - name: Run script and save output
         run: |
-          python py/CM.py --output CM.txt --format "{$.ip},{$.port},{$.meta.country},{$.meta.asOrganization} {$.meta.city}"
+          python py/CM_Alive.py convert --output all_output.txt
+          python py/CM_Alive.py alive CM_Alive.txt --source-file all_output.txt 
 
       - name: Commit result
         run: |
