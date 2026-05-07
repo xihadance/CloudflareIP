@@ -60,9 +60,24 @@ TAGGED_PROXY_PATTERN = re.compile(r"^(?P<ip>[^:\s#]+):(?P<port>\d+)\#(?P<meta>.+
 
 
 def fetch_json_text(url: str, timeout: float = 15.0) -> str:
-    with urlopen(url, timeout=timeout) as response:
+    headers = {
+        "content-type": "text/plain;charset=UTF-8",
+        "sec-ch-ua": '"Chromium";v="146", "Not-A.Brand";v="24", "Google Chrome";v="146"',
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": '"Windows"',
+        "referer": "https://proxyip.snu.cc/",
+        "user-agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/146.0.0.0 Safari/537.36"
+        ),
+    }
+
+    request = Request(url, headers=headers)
+    with urlopen(request, timeout=timeout) as response:
         charset = response.headers.get_content_charset() or "utf-8"
-        return response.read().decode(charset, errors="replace")
+        content = response.read().decode(charset, errors="replace")
+        return content
 
 
 def build_display_name(item: dict) -> str:
