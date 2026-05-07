@@ -28,7 +28,7 @@ DEFAULT_SOURCE_URLS = (
     "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/main/proxyList.txt",
 )
 DEFAULT_API_URL = "https://proxyip.snu.cc/batch"
-DEFAULT_TARGET_COUNTRIES = ("HK", "SG", "US", "UK", "AU")
+DEFAULT_TARGET_COUNTRIES = ("HK", "SG", "US", "JP", "UK", "AU")
 DEFAULT_LARGE_GROUP_BATCH_SIZE = 150
 DEFAULT_DIRECT_REQUEST_LIMIT = 250
 DEFAULT_SHARD_WORKERS = 8
