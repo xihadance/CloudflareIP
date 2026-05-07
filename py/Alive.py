@@ -11,7 +11,7 @@ from urllib.request import Request, urlopen
 
 SOURCE_URLS = ( "https://raw.githubusercontent.com/MarinaAqua/ProxyIP/main/Alive.txt", "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/main/proxyList.txt" )
 API_URL = "https://proxyip.snu.cc/batch"
-TARGET_COUNTRIES = ( "HK", "SG", "US", "UK", "AU" )
+TARGET_COUNTRIES = ( "HK", "SG", "US", "JP", "UK", "AU" )
 LARGE_GROUP_BATCH_SIZE = 150
 DIRECT_REQUEST_LIMIT = 250
 COUNTRY_WORKERS = 3
