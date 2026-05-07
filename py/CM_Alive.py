@@ -8,6 +8,7 @@ import json
 import re
 import sys
 import time
+import traceback
 from collections import defaultdict
 from concurrent.futures import Future, ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
@@ -571,6 +572,7 @@ def main(argv: list[str] | None = None) -> int:
         return 2
     except Exception as exc:  # noqa: BLE001
         print(f"执行失败: {exc}", file=sys.stderr)
+        traceback.print_exc()
         return 1
 
 
