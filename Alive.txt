@@ -1,190 +1,185 @@
-141.11.91.67:8080#HK Tusker Technologies Pty Ltd ~ 960
-43.132.244.52:21415#HK 6 COLLYER QUAY ~ 966
-43.154.124.136:26666#HK 6 COLLYER QUAY ~ 993
-47.76.218.163:443#HK Alibaba Cloud - HK ~ 994
-221.125.10.8:57537#HK HGC Global Communications Limited ~ 1016
-221.125.10.8:57537#HK HGC Global Communications Limited ~ 1041
-47.76.218.163:443#HK Alibaba Cloud - HK ~ 1252
-43.154.124.136:26666#HK 6 COLLYER QUAY ~ 1261
-141.11.91.67:8080#HK Tusker Technologies Pty Ltd ~ 1270
-8.210.96.197:12902#HK Alibaba Cloud Singapore Private Limited ~ 1273
-103.251.89.149:29876#HK HengTian HK DataCenter ~ 1293
-43.252.41.204:2443#HK CommuniLink Internet Ltd. ~ 1614
-43.252.41.204:2443#HK CommuniLink Internet Ltd. ~ 1634
-168.138.171.70:23280#SG Oracle Public Cloud ~ 1011
-213.35.100.31:47112#SG Oracle Svenska AB ~ 1013
-43.156.181.203:443#SG 16 COLLYER QUAY ~ 1019
-91.192.81.154:2053#SG Melbikomas UAB ~ 1030
-213.35.108.135:12596#SG Oracle Svenska AB ~ 1038
-5.34.176.119:81#SG Green Floid LLC ~ 1038
-146.235.18.248:45137#SG Oracle Corporation ~ 1046
-213.35.108.135:12596#SG Oracle Svenska AB ~ 1046
-138.2.74.219:28616#SG Cloudflare London,LLC ~ 1046
-129.150.36.188:53435#SG Oracle Corporation ~ 1049
+43.154.124.136:26666#HK 6 COLLYER QUAY ~ 989
+221.125.10.8:57537#HK HGC Global Communications Limited ~ 1009
+8.210.96.197:12902#HK Alibaba Cloud Singapore Private Limited ~ 1017
+221.125.10.8:57537#HK HGC Global Communications Limited ~ 1024
+47.76.218.163:443#HK Alibaba Cloud - HK ~ 1123
+47.76.218.163:443#HK Alibaba Cloud - HK ~ 1162
+43.154.124.136:26666#HK 6 COLLYER QUAY ~ 1209
+103.251.89.149:29876#HK HengTian HK DataCenter ~ 1482
+43.252.41.204:2443#HK CommuniLink Internet Ltd. ~ 1547
+43.252.41.204:2443#HK CommuniLink Internet Ltd. ~ 1597
+8.218.36.133:9010#HK Alibaba Cloud Singapore Private Limited ~ 2936
+129.150.36.188:53435#SG Oracle Corporation ~ 1009
+146.235.18.248:45137#SG Oracle Corporation ~ 1011
+213.35.108.135:12596#SG Oracle Svenska AB ~ 1013
+138.2.74.219:28616#SG Cloudflare London,LLC ~ 1015
 47.74.254.191:8900#SG Alibaba Cloud - SG ~ 1054
-91.192.81.154:8443#SG Melbikomas UAB ~ 1055
-143.42.66.91:443#SG Viewqwest Pte Ltd ~ 1056
-213.35.100.31:47112#SG Oracle Svenska AB ~ 1060
-13.250.131.37:443#SG Amazon Data Services Singapore ~ 1071
-91.192.81.154:2053#SG Melbikomas UAB ~ 1074
-47.130.35.116:8888#SG Amazon Data Services Singapore ~ 1083
-146.235.18.248:45137#SG Oracle Corporation ~ 1085
-164.52.2.99:443#SG UCUL-SG ~ 1098
-47.74.254.191:8900#SG Alibaba Cloud - SG ~ 1103
-13.250.131.37:443#SG Amazon Data Services Singapore ~ 1106
-149.28.158.103:10030#SG Vultr Holdings LLC ~ 1132
-164.52.2.98:443#SG UCUL-SG ~ 1133
-138.2.95.61:1111#SG Oracle Corporation ~ 1314
-43.156.116.194:443#SG 6 COLLYER QUAY ~ 3076
-50.228.203.26:443#US Comcast Cable Communications,LLC ~ 342
+143.42.66.91:443#SG M1 LIMITED ~ 1071
+213.35.100.31:47112#SG Oracle Svenska AB ~ 1074
+213.35.108.135:12596#SG Oracle Svenska AB ~ 1078
+168.138.165.174:443#SG Oracle Public Cloud ~ 1092
+168.138.171.70:23280#SG Oracle Public Cloud ~ 1093
+91.192.81.154:2053#SG Melbikomas UAB ~ 1105
+91.192.81.154:2053#SG Melbikomas UAB ~ 1106
+13.250.131.37:443#SG Amazon Data Services Singapore ~ 1110
+164.52.2.100:443#SG UCUL-SG ~ 1121
+47.130.35.116:8888#SG Amazon Data Services Singapore ~ 1136
+5.34.176.119:81#SG Green Floid LLC ~ 1137
+164.52.2.98:443#SG UCUL-SG ~ 1149
+146.235.18.248:45137#SG Oracle Corporation ~ 1162
+47.74.254.191:8900#SG Alibaba Cloud - SG ~ 1203
+213.35.100.31:47112#SG Oracle Svenska AB ~ 1220
+164.52.2.99:443#SG UCUL-SG ~ 1238
+138.2.95.61:1111#SG Oracle Corporation ~ 1313
+149.28.158.103:10030#SG Vultr Holdings LLC ~ 1460
+43.156.116.194:443#SG 6 COLLYER QUAY ~ 1507
+43.156.181.203:443#SG 16 COLLYER QUAY ~ 1542
+199.119.137.77:2053#US EXTRAVM LLC ~ 338
+199.119.137.41:2053#US EXTRAVM LLC ~ 341
+199.119.137.95:2053#US EXTRAVM LLC ~ 341
+199.119.137.78:2053#US EXTRAVM LLC ~ 342
+199.119.137.109:2053#US EXTRAVM LLC ~ 343
+199.119.137.41:8443#US EXTRAVM LLC ~ 343
+50.228.203.26:443#US Comcast Cable Communications,LLC ~ 344
+43.130.134.123:65002#US 6 COLLYER QUAY ~ 345
+43.130.105.166:65001#US 6 COLLYER QUAY ~ 345
 43.130.105.166:65002#US 6 COLLYER QUAY ~ 345
-74.121.150.129:8443#US IT7 Networks Inc ~ 345
-43.130.105.166:65001#US 6 COLLYER QUAY ~ 346
-47.253.87.21:52315#US Alibaba Cloud - US ~ 352
-107.175.245.68:50242#US RackNerd LLC ~ 376
+43.130.134.123:65001#US 6 COLLYER QUAY ~ 350
+46.17.107.199:443#US FIRST SERVER LIMITED ~ 350
+45.138.27.90:443#US ITGLOBALCOM NL BV ~ 358
+47.253.87.21:52315#US Alibaba Cloud - US ~ 358
+15.204.205.208:449#US OVH US LLC ~ 381
 156.154.245.83:443#US Arbor Cloud ~ 382
-104.234.50.53:443#US Private Customer ~ 384
-107.173.250.62:444#US RackNerd LLC ~ 394
-15.204.205.208:449#US OVH US LLC ~ 396
-129.159.84.71:443#US Oracle Corporation ~ 429
-150.230.168.70:50479#US Oracle Corporation ~ 433
-172.245.182.112:443#US HostPapa ~ 487
-141.148.1.34:38589#US Oracle Corporation ~ 500
-23.106.155.178:802#US IT7 Networks Inc ~ 528
-23.105.215.45:443#US IT7 Networks Inc ~ 532
-216.146.25.224:2053#US EXTRAVM LLC ~ 585
-172.235.49.135:17973#US Linode ~ 592
-107.172.137.69:2053#US RackNerd LLC ~ 595
-104.168.167.197:27213#US Hostwinds Seattle ~ 606
-152.67.235.3:88#US Oracle Public Cloud ~ 610
-91.149.239.206:443#US BG-NETWORK ~ 612
-132.226.119.111:24361#US Oracle Public Cloud ~ 612
-15.204.57.47:7267#US Cloudflare London,LLC ~ 616
-141.148.181.105:38945#US Oracle Corporation ~ 617
-34.168.95.100:12388#US Google LLC ~ 618
-23.94.56.111:20338#US RackNerd LLC ~ 619
-172.96.192.114:44855#US IT7 Networks Inc ~ 622
-104.168.176.241:24264#US HostPapa ~ 624
-47.251.95.178:443#US Alibaba Cloud - US ~ 624
-129.153.127.204:20756#US Oracle Corporation ~ 627
-158.101.39.0:42979#US Oracle Public Cloud ~ 627
-192.9.250.241:443#US Oracle Corporation ~ 628
-129.146.46.164:443#US Oracle Corporation ~ 629
-45.151.132.228:19034#US Spartan Host Ltd ~ 629
-63.142.251.8:443#US Nodisto IT LLC ~ 634
-23.95.18.12:18443#US RackNerd LLC ~ 634
-192.210.196.158:36414#US RackNerd LLC ~ 636
-172.235.49.135:17973#US Linode ~ 636
-23.95.61.179:15160#US RackNerd LLC ~ 637
-23.94.213.132:27149#US HostPapa ~ 638
-23.94.122.243:29500#US HostPapa ~ 638
-23.95.61.179:15160#US RackNerd LLC ~ 639
-192.9.138.69:21009#US Oracle Corporation ~ 640
-167.234.216.84:65501#US Oracle Corporation ~ 640
-192.9.135.182:7800#US Oracle Corporation ~ 641
-146.235.209.40:58869#US Oracle Corporation ~ 641
-150.230.33.247:19131#US Oracle Corporation ~ 641
-129.153.91.86:3701#US Oracle Corporation ~ 642
-104.168.87.41:16443#US RackNerd LLC ~ 642
-141.148.153.223:36818#US Oracle Corporation ~ 642
-74.48.140.177:443#US MULTACOM CORPORATION ~ 643
-195.123.241.122:50008#US Total server solutions LLC ~ 643
-185.186.146.45:61927#US Hostsymbol Pte. Ltd. ~ 644
-129.159.37.19:30488#US Oracle Corporation ~ 646
-192.9.138.69:21009#US Oracle Corporation ~ 646
-129.146.114.239:44039#US Oracle Corporation ~ 647
-192.9.228.70:14123#US Oracle Corporation ~ 647
-141.148.164.46:57239#US Oracle Corporation ~ 647
-138.2.231.58:45638#US Oracle Corporation ~ 648
-152.70.143.175:29187#US Oracle Corporation ~ 648
-107.173.30.154:27149#US ColoCrossing ~ 650
-18.216.55.100:443#US Amazon Technologies Inc. ~ 650
-172.245.129.72:27486#US RackNerd LLC ~ 651
-96.126.112.12:38298#US Linode ~ 652
-104.234.50.215:2053#US Private Customer ~ 664
-216.128.140.253:26376#US The Constant Company,LLC ~ 674
-192.9.156.27:587#US Oracle Corporation ~ 678
-198.46.218.63:27149#US RackNerd LLC ~ 721
-199.119.137.78:2053#US EXTRAVM LLC ~ 808
-213.170.157.1:443#US RedShield Security Ltd ~ 820
-107.173.87.103:443#US RackNerd LLC ~ 839
-107.172.201.15:8443#US RackNerd LLC ~ 868
-107.172.137.69:8443#US RackNerd LLC ~ 911
-193.233.87.41:8443#US VDSKANET ~ 918
-129.159.84.71:443#US Oracle Corporation ~ 943
-45.138.27.90:443#US ITGLOBALCOM NL BV ~ 963
-46.17.107.199:443#US FIRST SERVER LIMITED ~ 963
-50.228.203.26:443#US Comcast Cable Communications,LLC ~ 981
-43.130.105.166:65001#US 6 COLLYER QUAY ~ 988
-43.130.105.166:65002#US 6 COLLYER QUAY ~ 990
-45.12.88.150:443#US Hostsymbol Pte Ltd ~ 1005
-178.156.148.4:8443#US Hetzner Online GmbH ~ 1033
-178.156.148.4:2053#US Hetzner Online GmbH ~ 1034
-35.175.188.144:9000#US Amazon Technologies Inc ~ 1036
-134.209.166.201:8443#US DigitalOcean LLC ~ 1054
-199.119.137.95:2053#US EXTRAVM LLC ~ 1070
-91.149.239.206:443#US BG-NETWORK ~ 1186
-199.119.137.77:2053#US EXTRAVM LLC ~ 1200
-152.70.143.65:2053#US Oracle Corporation ~ 1210
-5.78.92.27:8443#US Hetzner Online GmbH ~ 1233
-104.168.167.197:27213#US Hostwinds Seattle ~ 1259
-18.216.55.100:443#US Amazon Technologies Inc. ~ 1310
-72.18.132.149:2053#US Exabytes Network Singapore Pte Ltd ~ 1321
-43.130.134.123:65002#US 6 COLLYER QUAY ~ 1326
-43.130.134.123:65001#US 6 COLLYER QUAY ~ 1326
-72.18.132.149:8443#US Exabytes Network Singapore Pte Ltd ~ 1329
-199.119.137.109:2053#US EXTRAVM LLC ~ 1332
-134.209.166.201:2053#US DigitalOcean LLC ~ 1336
-104.168.35.194:56393#US ColoCrossing ~ 1340
+150.230.168.70:50479#US Oracle Corporation ~ 389
+107.173.250.62:444#US RackNerd LLC ~ 393
+104.234.50.53:443#US Private Customer ~ 403
+129.159.84.71:443#US Oracle Corporation ~ 404
+193.233.87.41:8443#US VDSKANET ~ 428
+134.209.166.201:2053#US DigitalOcean LLC ~ 433
+134.209.166.201:8443#US DigitalOcean LLC ~ 434
+107.172.137.69:8443#US RackNerd LLC ~ 440
+216.146.25.224:8443#US EXTRAVM LLC ~ 440
+107.172.137.69:2053#US RackNerd LLC ~ 443
+216.146.25.224:2053#US EXTRAVM LLC ~ 445
+63.142.251.8:443#US Nodisto IT LLC ~ 446
+107.172.201.15:8443#US RackNerd LLC ~ 456
+91.149.239.206:443#US BG-NETWORK ~ 506
+192.9.156.27:587#US Oracle Corporation ~ 510
+192.9.228.70:14123#US Oracle Corporation ~ 511
+192.9.135.182:7800#US Oracle Corporation ~ 512
+138.2.231.58:45638#US Oracle Corporation ~ 512
+91.149.239.206:443#US BG-NETWORK ~ 518
+192.9.138.69:21009#US Oracle Corporation ~ 520
+74.48.140.177:443#US MULTACOM CORPORATION ~ 522
+45.12.88.150:443#US Hostsymbol Pte Ltd ~ 523
+185.186.146.45:61927#US Hostsymbol Pte. Ltd. ~ 523
+195.123.241.122:50008#US Total server solutions LLC ~ 525
+5.78.92.27:8443#US Hetzner Online GmbH ~ 535
+192.210.196.158:36414#US RackNerd LLC ~ 541
+129.146.46.164:443#US Oracle Corporation ~ 541
+129.146.114.239:44039#US Oracle Corporation ~ 543
+23.95.61.179:15160#US RackNerd LLC ~ 543
+23.95.18.12:18443#US RackNerd LLC ~ 545
+23.95.61.179:15160#US RackNerd LLC ~ 546
+132.226.119.111:24361#US Oracle Public Cloud ~ 547
+141.148.181.105:38945#US Oracle Corporation ~ 548
+34.168.95.100:12388#US Google LLC ~ 548
+129.153.127.204:20756#US Oracle Corporation ~ 549
+152.70.143.175:29187#US Oracle Corporation ~ 549
+47.88.24.237:10444#US Alibaba Cloud  US ~ 552
+152.70.143.65:2053#US Oracle Corporation ~ 552
+23.105.199.91:21626#US IT7 Networks Inc ~ 553
+45.151.132.228:19034#US Spartan Host Ltd ~ 554
+162.219.120.218:443#US Cluster Logic Inc ~ 557
+23.94.56.111:20338#US RackNerd LLC ~ 562
+47.88.24.237:10443#US Alibaba Cloud  US ~ 568
+104.168.167.197:27213#US Hostwinds Seattle ~ 578
+198.46.218.63:27149#US RackNerd LLC ~ 729
+23.94.213.132:27149#US HostPapa ~ 821
+104.168.167.197:27213#US Hostwinds Seattle ~ 1281
+72.18.132.149:8443#US Exabytes Network Singapore Pte Ltd ~ 1343
+72.18.132.149:2053#US Exabytes Network Singapore Pte Ltd ~ 1347
+18.216.55.100:443#US Amazon Technologies Inc. ~ 1355
+104.168.35.194:56393#US ColoCrossing ~ 1376
+35.175.188.144:9000#US Amazon Technologies Inc ~ 1378
+178.156.148.4:8443#US Hetzner Online GmbH ~ 1383
+178.156.148.4:2053#US Hetzner Online GmbH ~ 1384
+104.234.50.215:2053#US Private Customer ~ 1399
+147.135.10.209:443#US OVH US LLC ~ 1402
+147.75.230.33:443#US Aryaka Networks,Inc. ~ 1649
+147.75.230.207:443#US Aryaka Networks,Inc. ~ 1687
+147.75.230.160:443#US Aryaka Networks,Inc. ~ 1719
+216.128.140.253:26376#US The Constant Company,LLC ~ 2509
+172.245.129.72:27486#US RackNerd LLC ~ 2510
+15.204.205.208:449#US OVH US LLC ~ 2511
+23.105.215.45:443#US IT7 Networks Inc ~ 2512
+15.204.57.47:7267#US Cloudflare London,LLC ~ 2512
+107.173.30.154:27149#US ColoCrossing ~ 2512
+18.216.55.100:443#US Amazon Technologies Inc. ~ 2512
+192.9.250.241:443#US Oracle Corporation ~ 2512
+213.170.157.1:443#US RedShield Security Ltd ~ 2512
+43.130.105.166:65001#US 6 COLLYER QUAY ~ 2512
+43.130.105.166:65002#US 6 COLLYER QUAY ~ 2512
+23.106.155.178:802#US IT7 Networks Inc ~ 2513
+96.126.112.12:38298#US Linode ~ 2513
+173.242.123.189:51042#US Cluster Logic Inc ~ 2514
+50.228.203.26:443#US Comcast Cable Communications,LLC ~ 2514
+107.175.245.68:50242#US RackNerd LLC ~ 2516
+150.230.168.70:50479#US Oracle Corporation ~ 2520
+129.159.84.71:443#US Oracle Corporation ~ 2520
+146.235.209.40:58869#US Oracle Corporation ~ 2520
+141.148.1.34:38589#US Oracle Corporation ~ 2521
+104.168.176.241:24264#US HostPapa ~ 2523
+150.230.33.247:19131#US Oracle Corporation ~ 2523
+173.242.123.189:51042#US Cluster Logic Inc ~ 2523
+129.153.91.86:3701#US Oracle Corporation ~ 2524
+167.234.216.84:65501#US Oracle Corporation ~ 2524
+118.27.12.40:38443#JP GMO Internet,Inc. ~ 797
+118.27.12.40:38443#JP GMO Internet,Inc. ~ 804
+158.101.89.113:50443#JP Oracle Public Cloud ~ 805
+138.2.10.149:45638#JP Oracle Corporation ~ 807
+138.2.10.217:27446#JP Oracle Corporation ~ 809
+138.3.222.124:46209#JP Oracle Network Information Services ~ 809
+131.186.63.89:11655#JP Oracle Public Cloud ~ 810
+138.2.18.82:8880#JP Oracle Corporation ~ 810
+138.2.10.149:45638#JP Oracle Corporation ~ 811
+141.147.183.49:29876#JP Oracle Corporation ~ 811
+140.238.37.103:14782#JP Oracle Public Cloud ~ 811
 141.147.185.63:443#JP Oracle Corporation ~ 812
 103.75.118.144:2053#JP Oneprovider.com - Japan Infrastructure ~ 812
-140.238.37.103:14782#JP Oracle Public Cloud ~ 812
-150.230.214.172:16957#JP Oracle Corporation ~ 813
-158.101.154.245:47001#JP Oracle Public Cloud ~ 813
-150.230.204.21:10243#JP Oracle Corporation ~ 814
-138.2.18.82:8880#JP Oracle Corporation ~ 816
-138.3.222.124:46209#JP Oracle Network Information Services ~ 816
-103.106.228.126:2053#JP oneprovider.com - Tokyo Infrastructure ~ 817
-138.3.217.167:587#JP Oracle Network Information Services ~ 826
-140.83.57.20:13118#JP imported inetnum object for OCPL-1 ~ 829
-138.2.48.109:26412#JP Oracle Corporation ~ 831
-152.69.192.40:57005#JP Oracle Corporation ~ 831
-138.2.59.96:10129#JP Oracle Corporation ~ 834
-217.142.250.195:587#JP Oracle Corporation ~ 836
-138.2.49.197:587#JP Oracle Corporation ~ 837
-141.147.152.229:23333#JP Oracle Corporation ~ 840
-45.77.25.6:27854#JP Vultr Holdings,LLC ~ 841
-139.162.102.152:7002#JP Akamai Connected Cloud / Linode ~ 851
-149.28.21.106:443#JP Vultr Holdings,LLC ~ 853
-45.77.25.6:48828#JP Vultr Holdings,LLC ~ 861
-141.147.183.49:29876#JP Oracle Corporation ~ 867
-45.76.198.248:443#JP Vultr Holdings,LLC ~ 891
-150.230.5.34:45681#JP Oracle Corporation ~ 899
-138.2.18.82:8880#JP Oracle Corporation ~ 903
-138.2.32.76:15821#JP Oracle Corporation ~ 910
-138.2.10.149:45638#JP Oracle Corporation ~ 911
-138.2.10.217:27446#JP Oracle Corporation ~ 918
-168.138.46.67:443#JP Oracle Public Cloud ~ 918
-217.142.230.253:587#JP Oracle Corporation ~ 920
-138.2.10.149:45638#JP Oracle Corporation ~ 927
-131.186.63.89:11655#JP Oracle Public Cloud ~ 931
-45.11.1.118:44004#JP CEGRGO-DigitalVM LLC - Tokyo ~ 967
-45.11.1.118:44004#JP CEGRGO-DigitalVM LLC - Tokyo ~ 1041
-150.230.214.172:16957#JP Oracle Corporation ~ 1046
-64.110.104.30:443#JP Oracle Corporation ~ 1162
-118.27.12.40:38443#JP GMO Internet,Inc. ~ 1168
-149.28.21.106:443#JP Vultr Holdings,LLC ~ 1196
-150.230.5.34:45681#JP Oracle Corporation ~ 1201
-158.101.89.113:50443#JP Oracle Public Cloud ~ 1212
-153.121.45.101:443#JP SAKURA Internet Inc ~ 1224
-103.106.228.126:2053#JP oneprovider.com - Tokyo Infrastructure ~ 1236
-118.27.12.40:38443#JP GMO Internet,Inc. ~ 1480
-103.75.118.144:2053#JP Oneprovider.com - Japan Infrastructure ~ 1499
-170.64.152.77:7443#AU DigitalOcean,LLC ~ 1078
-170.64.152.77:7443#AU DigitalOcean,LLC ~ 1080
-130.162.193.183:15401#AU Oracle Public Cloud ~ 1096
-45.77.236.204:443#AU Vultr Holdings,LLC ~ 1150
-152.67.101.72:23010#AU Oracle Public Cloud ~ 1439
-192.9.190.80:23862#AU Oracle Corporation ~ 1440
-152.67.99.162:443#AU Oracle Public Cloud ~ 1552
-125.7.24.251:443#AU Macquarie Telecom ~ 1564
+138.3.217.167:587#JP Oracle Network Information Services ~ 814
+168.138.197.147:12345#JP Oracle Public Cloud ~ 814
+103.106.228.126:2053#JP oneprovider.com - Tokyo Infrastructure ~ 815
+103.106.228.126:2053#JP oneprovider.com - Tokyo Infrastructure ~ 815
+45.11.1.118:44004#JP CEGRGO-DigitalVM LLC - Tokyo ~ 816
+150.230.204.21:10243#JP Oracle Corporation ~ 817
+45.11.1.118:44004#JP CEGRGO-DigitalVM LLC - Tokyo ~ 818
+103.75.118.144:2053#JP Oneprovider.com - Japan Infrastructure ~ 822
+158.101.154.245:47001#JP Oracle Public Cloud ~ 822
+217.142.230.253:587#JP Oracle Corporation ~ 827
+150.230.5.34:45681#JP Oracle Corporation ~ 827
+217.142.250.195:587#JP Oracle Corporation ~ 829
+141.147.152.229:23333#JP Oracle Corporation ~ 829
+152.69.192.40:57005#JP Oracle Corporation ~ 830
+150.230.5.34:45681#JP Oracle Corporation ~ 831
+140.83.57.20:13118#JP imported inetnum object for OCPL-1 ~ 831
+138.2.49.197:587#JP Oracle Corporation ~ 831
+138.2.59.96:10129#JP Oracle Corporation ~ 832
+168.138.46.67:443#JP Oracle Public Cloud ~ 833
+138.2.32.76:15821#JP Oracle Corporation ~ 835
+139.162.102.152:7002#JP Akamai Connected Cloud / Linode ~ 836
+45.76.198.248:443#JP Vultr Holdings,LLC ~ 842
+149.28.21.106:443#JP Vultr Holdings,LLC ~ 843
+45.77.25.6:48828#JP Vultr Holdings,LLC ~ 844
+153.121.45.101:443#JP SAKURA Internet Inc ~ 851
+149.28.21.106:443#JP Vultr Holdings,LLC ~ 860
+45.77.25.6:27854#JP Vultr Holdings,LLC ~ 865
+138.2.48.109:26412#JP Oracle Corporation ~ 906
+138.2.18.82:8880#JP Oracle Corporation ~ 1102
+125.7.24.251:443#AU Macquarie Telecom ~ 927
+192.9.190.80:23862#AU Oracle Corporation ~ 950
+152.67.101.72:23010#AU Oracle Public Cloud ~ 954
+45.77.236.204:443#AU Vultr Holdings,LLC ~ 965
+130.162.193.183:15401#AU Oracle Public Cloud ~ 982
+170.64.152.77:7443#AU DigitalOcean,LLC ~ 1013
+170.64.152.77:7443#AU DigitalOcean,LLC ~ 1025
