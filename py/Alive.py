@@ -9,18 +9,17 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 
-SOURCE_URLS = ( "https://raw.githubusercontent.com/MarinaAqua/ProxyIP/main/Alive.txt", "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/main/proxyList.txt" )
-API_URL = "https://proxyip.snu.cc/batch"
+SOURCE_URLS = (
+    "https://raw.githubusercontent.com/MarinaAqua/ProxyIP/main/Alive.txt",
+    "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/main/proxyList.txt",
+)
 API_URL = "https://check.proxyip.cmliussss.net/resolve-batch"
-TARGET_COUNTRIES = ( "HK", "SG", "US", "JP", "UK", "AU" )
-LARGE_GROUP_BATCH_SIZE = 150
-DIRECT_REQUEST_LIMIT = 250
+TARGET_COUNTRIES = ("HK", "SG", "US", "JP", "UK", "AU")
 RESOLVE_BATCH_LIMIT = 15
 LARGE_GROUP_BATCH_SIZE = 15
 DIRECT_REQUEST_LIMIT = 15
 COUNTRY_WORKERS = 3
 MAX_SUCCESS_PER_GROUP = 100
-RETRYABLE_HTTP_STATUS_CODES = {408, 429, 500, 502, 503, 504}
 RETRYABLE_HTTP_STATUS_CODES = {408, 429, 500, 502, 503, 504, 520, 521, 522, 523, 524}
 
 
@@ -35,10 +34,8 @@ class ProxyRow:
     def ip_port(self) -> str:
         return f"{self.ip}:{self.port}"
 
-    def format_with_latency(self, latency: int) -> str:
     def format_with_latency(self, latency: int = 0) -> str:
         meta = self.country if not self.org else f"{self.country} {self.org}"
-        return f"{self.ip}:{self.port}#{meta} ~ {latency}"
         if latency and 0 < latency < 10**9:
             return f"{self.ip}:{self.port}#{meta} ~ {latency}"
         return f"{self.ip}:{self.port}#{meta}"
@@ -66,20 +63,15 @@ def parse_rows(text: str) -> Iterable[ProxyRow]:
 
 
 def build_batch_request(ips: List[str]) -> Request:
-    body = json.dumps({"ips": ips}, ensure_ascii=False).encode("utf-8")
     body = json.dumps({"targets": ips, "ips": ips}, ensure_ascii=False).encode("utf-8")
     return Request(
         API_URL,
         data=body,
         method="POST",
         headers={
-            "content-type": "text/plain;charset=UTF-8",
-            "sec-ch-ua": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
             "content-type": "application/json",
             "sec-ch-ua": '"Chromium";v="146", "Not-A.Brand";v="24", "Google Chrome";v="146"',
             "sec-ch-ua-mobile": "?0",
-            "sec-ch-ua-platform": "\"Windows\"",
-            "referer": "https://proxyip.snu.cc/",
             "sec-ch-ua-platform": '"Windows"',
             "referer": "https://check.proxyip.cmliussss.net/",
             "origin": "https://check.proxyip.cmliussss.net",
@@ -103,12 +95,9 @@ def post_batch(ips: List[str], retries: int = 2) -> List[Dict]:
     for attempt in range(retries + 1):
         try:
             req = build_batch_request(ips)
-            with urlopen(req, timeout=300) as resp:
             with urlopen(req, timeout=30) as resp:
                 payload = resp.read().decode("utf-8", errors="replace")
             data = json.loads(payload)
-            if isinstance(data, dict) and "data" in data:
-                return data.get("data") or []
             if isinstance(data, dict):
                 if "results" in data and isinstance(data["results"], list):
                     normalized: List[Dict] = []
