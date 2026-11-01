@@ -1,48 +1,3 @@
-45.152.65.78:2083#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
-149.104.24.57:8443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
-45.152.65.137:8443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
-82.27.116.182:443#HK DEBEE Network San Tin
-82.27.116.182:8443#HK DEBEE Network San Tin
-2.26.201.194:443#HK Cloudflare London, LLC Hong Kong
-38.55.198.250:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
-141.11.91.16:443#HK HYTRON NETWORK HK Tsuen Wan
-45.192.205.70:8443#HK Akile LTD Hong Kong
-207.57.125.21:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
-82.22.31.122:443#HK DATAWAVE GLOBAL LLC Hong Kong
-219.76.13.181:443#HK Hong Kong Telecommunications (HKT) Limited Mass Internet Hong Kong
-154.3.39.40:443#HK DMIT Cloud Service - Los Angeles Kwai Chung
-103.69.128.221:443#HK HostHatch HKG1 Hong Kong
-45.196.235.64:443#HK ACCK LLC Hong Kong
-154.82.136.29:443#HK AKILE LTD Hong Kong
-154.82.136.29:8443#HK AKILE LTD Hong Kong
-103.193.172.196:443#HK Cloudie Limited Tseung Kwan O
-103.135.250.82:443#HK DMIT Cloud Service - Los Angeles Kwai Chung
-178.83.206.103:443#HK AkileCloud Network Tung Chung
-143.20.156.30:443#HK ZOUTER HK Kwai Chung
-43.132.231.159:443#HK 6 COLLYER QUAY Hong Kong
-103.219.194.43:443#HK BAGE CLOUD LLC Hong Kong
-82.27.116.133:2096#HK DEBEE Network San Tin
-191.223.212.227:2053#HK DMIT Cloud Service - Los Angeles Kwai Chung
-191.223.212.227:8443#HK DMIT Cloud Service - Los Angeles Kwai Chung
-43.154.131.189:443#HK 6 COLLYER QUAY Hong Kong
-154.16.183.151:443#HK Hytron Network Services Limited - HK Tung Chung
-108.165.147.249:443#HK Evoxt.com Hong Kong
-191.223.216.7:443#HK DMIT Cloud Service - Los Angeles Kwai Chung
-156.226.168.252:443#HK HYTRON NETWORK HK Tsuen Wan
-38.207.176.165:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
-103.219.194.151:443#HK BAGE CLOUD LLC Hong Kong
-38.207.177.204:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
-209.33.161.104:443#HK BAGE CLOUD LLC Hong Kong
-45.149.186.133:443#HK HYTRON NETWORK HK Tsuen Wan
-149.104.24.36:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
-68.64.180.218:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
-141.11.149.89:2053#HK HYTRON NETWORK HK Tsuen Wan
-217.60.248.250:443#HK as56971 network Hong Kong
-45.39.199.98:443#HK HYTRON NETWORK HK Tsuen Wan
-38.207.179.77:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
-219.76.13.169:443#HK Hong Kong Telecommunications (HKT) Limited Mass Internet Hong Kong
-149.104.31.208:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Harmony Garden
-219.76.13.167:443#HK Hong Kong Telecommunications (HKT) Limited Mass Internet Hong Kong
 207.57.128.105:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
 202.155.155.41:443#HK Private Customer Hong Kong
 193.134.209.165:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
@@ -58,6 +13,36 @@
 46.8.101.232:2053#HK Cloud Software - FZCO Hong Kong
 46.8.101.232:8443#HK Cloud Software - FZCO Hong Kong
 207.57.124.108:2083#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+103.229.54.103:443#HK Akari Networks (Hong Kong) Hong Kong
+156.224.79.83:443#HK HYTRON NETWORK HK Tsuen Wan
+103.143.81.222:2053#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+156.226.168.41:443#HK HYTRON NETWORK HK Tsuen Wan
+45.207.156.204:443#HK HYTRON NETWORK HK Tsuen Wan
+38.55.192.169:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+219.76.13.166:443#HK Hong Kong Telecommunications (HKT) Limited Mass Internet Hong Kong
+38.55.199.128:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+207.57.126.121:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+207.57.124.226:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+45.207.156.183:443#HK HYTRON NETWORK HK Tsuen Wan
+45.192.204.64:443#HK AKILE LTD Hong Kong
+149.104.27.213:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Harmony Garden
+149.104.24.132:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+207.57.128.194:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+45.152.65.78:2083#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+149.104.24.57:8443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+45.152.65.137:8443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+82.27.116.182:443#HK DEBEE Network San Tin
+82.27.116.182:8443#HK DEBEE Network San Tin
+2.26.201.194:443#HK Cloudflare London, LLC Hong Kong
+38.55.198.250:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+141.11.91.16:443#HK HYTRON NETWORK HK Tsuen Wan
+45.192.205.70:8443#HK Akile LTD Hong Kong
+207.57.125.21:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+82.22.31.122:443#HK DATAWAVE GLOBAL LLC Hong Kong
+219.76.13.181:443#HK Hong Kong Telecommunications (HKT) Limited Mass Internet Hong Kong
+154.3.39.40:443#HK DMIT Cloud Service - Los Angeles Kwai Chung
+103.69.128.221:443#HK HostHatch HKG1 Hong Kong
+45.196.235.64:443#HK ACCK LLC Hong Kong
 23.156.153.40:443#HK Hytron Network Services Limited - HK Tung Chung
 219.76.13.177:443#HK Hong Kong Telecommunications (HKT) Limited Mass Internet Hong Kong
 172.93.188.25:443#HK xTom Hong Kong Limited Tung Chung
@@ -73,21 +58,36 @@
 154.16.183.190:443#HK Hytron Network Services Limited - HK Tung Chung
 151.242.125.102:443#HK AKILE LTD Hong Kong
 191.223.217.144:443#HK DMIT Cloud Service - Los Angeles Kwai Chung
-151.243.229.150:443#HK ZOUTER HK Kwai Chung
-156.224.76.205:443#HK Akile LTD Hong Kong
-191.223.212.83:443#HK DMIT Cloud Service - Los Angeles Kwai Chung
-38.6.219.63:443#HK HYTRON NETWORK HK Tsuen Wan
-103.219.195.65:443#HK BAGE CLOUD LLC Hong Kong
-191.223.217.255:443#HK DMIT Cloud Service - Los Angeles Kwai Chung
-45.192.247.177:443#HK Akile LTD Hong Kong
-103.219.192.196:443#HK BAGE CLOUD LLC Hong Kong
-82.27.116.181:443#HK DEBEE Network San Tin
-82.27.116.181:8443#HK DEBEE Network San Tin
-151.246.186.163:443#HK Private Customer Tsuen Wan
-83.147.60.79:443#HK Hytron Network Services Limited - HK Tung Chung
-68.64.182.205:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
-163.53.18.35:443#HK Akari Networks (Hong Kong) Hong Kong
-45.152.65.78:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+156.226.168.252:443#HK HYTRON NETWORK HK Tsuen Wan
+38.207.176.165:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+103.219.194.151:443#HK BAGE CLOUD LLC Hong Kong
+38.207.177.204:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+209.33.161.104:443#HK BAGE CLOUD LLC Hong Kong
+45.149.186.133:443#HK HYTRON NETWORK HK Tsuen Wan
+149.104.24.36:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+68.64.180.218:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+141.11.149.89:2053#HK HYTRON NETWORK HK Tsuen Wan
+217.60.248.250:443#HK as56971 network Hong Kong
+45.39.199.98:443#HK HYTRON NETWORK HK Tsuen Wan
+38.207.179.77:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+219.76.13.169:443#HK Hong Kong Telecommunications (HKT) Limited Mass Internet Hong Kong
+149.104.31.208:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Harmony Garden
+219.76.13.167:443#HK Hong Kong Telecommunications (HKT) Limited Mass Internet Hong Kong
+154.82.136.29:443#HK AKILE LTD Hong Kong
+154.82.136.29:8443#HK AKILE LTD Hong Kong
+103.193.172.196:443#HK Cloudie Limited Tseung Kwan O
+103.135.250.82:443#HK DMIT Cloud Service - Los Angeles Kwai Chung
+178.83.206.103:443#HK AkileCloud Network Tung Chung
+143.20.156.30:443#HK ZOUTER HK Kwai Chung
+43.132.231.159:443#HK 6 COLLYER QUAY Hong Kong
+103.219.194.43:443#HK BAGE CLOUD LLC Hong Kong
+82.27.116.133:2096#HK DEBEE Network San Tin
+191.223.212.227:2053#HK DMIT Cloud Service - Los Angeles Kwai Chung
+191.223.212.227:8443#HK DMIT Cloud Service - Los Angeles Kwai Chung
+43.154.131.189:443#HK 6 COLLYER QUAY Hong Kong
+154.16.183.151:443#HK Hytron Network Services Limited - HK Tung Chung
+108.165.147.249:443#HK Evoxt.com Hong Kong
+191.223.216.7:443#HK DMIT Cloud Service - Los Angeles Kwai Chung
 207.57.122.184:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
 83.229.123.135:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Harmony Garden
 43.161.233.40:8443#HK 6 COLLYER QUAY Hong Kong
@@ -98,6 +98,21 @@
 38.55.192.142:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
 38.207.178.173:443#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
 38.207.178.173:2087#HK MR 1605 HO KING COMM CTR 2-16 FA YUEN ST MONGKOK KL Tung Chung
+156.244.57.227:443#SG DigitalOcean, LLC Singapore
+165.22.104.36:443#SG DigitalOcean, LLC Singapore
+69.8.133.6:443#SG Akari Networks (Singapore) Singapore
+188.166.247.45:443#SG DigitalOcean, LLC Singapore
+45.76.158.173:443#SG The Constant Company, LLC Singapore
+43.134.101.37:443#SG ACEVILLE PTE.LTD. Singapore
+104.234.174.220:443#SG 28 Kallang Place # 05-08 Singapore 339518 Singapore
+143.198.90.188:443#SG DigitalOcean, LLC Singapore
+128.1.186.60:443#SG ZENLA-1 Singapore
+5.223.51.2:443#SG Hetzner Online GmbH Singapore
+140.245.127.48:443#SG Oracle Corporation Kampong Loyang
+45.77.33.228:443#SG Vultr Holdings, LLC Singapore
+89.34.227.245:443#SG Akari Networks (Singapore) Singapore
+43.156.116.194:443#SG 6 COLLYER QUAY Singapore
+168.144.39.64:443#SG DigitalOcean, LLC Singapore
 157.245.159.88:443#SG DigitalOcean, LLC Singapore
 143.198.89.118:443#SG DigitalOcean, LLC Singapore
 206.206.77.6:8443#SG IPXO LLC Singapore
@@ -113,21 +128,6 @@
 20.6.12.145:443#SG Microsoft Corporation Singapore
 157.230.248.87:443#SG DigitalOcean, LLC Singapore
 185.115.207.90:443#SG ByteVirt LLC Singapore
-159.223.95.46:443#SG DigitalOcean, LLC Singapore
-139.180.159.58:443#SG Cloudflare London, LLC Singapore
-188.253.125.122:443#SG Akari Networks (Singapore) Singapore
-129.226.213.65:443#SG ACEVILLE PTE.LTD. Singapore
-185.115.207.129:443#SG ByteVirt LLC Singapore
-157.245.198.117:443#SG DigitalOcean, LLC Singapore
-45.76.178.112:443#SG The Constant Company, LLC Singapore
-167.150.100.46:443#SG BrainStorm Network, Inc Singapore
-165.22.98.158:443#SG DigitalOcean, LLC Singapore
-43.156.181.203:443#SG 16 COLLYER QUAY Singapore
-134.185.91.72:443#SG Oracle Corporation Kampong Loyang
-45.32.109.225:443#SG The Constant Company, LLC Singapore
-134.209.108.21:443#SG DigitalOcean, LLC Singapore
-139.180.144.145:443#SG The Constant Company, LLC Singapore
-146.190.86.159:443#SG DigitalOcean, LLC Singapore
 161.118.210.121:443#SG Oracle Corporation Kampong Loyang
 161.118.210.121:2053#SG Oracle Corporation Kampong Loyang
 167.172.75.10:443#SG DigitalOcean, LLC Singapore
@@ -143,21 +143,21 @@
 103.72.62.113:443#SG ADROITSSD Singapore
 188.166.214.16:443#SG DigitalOcean, LLC Singapore
 168.107.88.7:443#SG Oracle Corporation Kampong Loyang
-129.212.232.171:443#SG DigitalOcean, LLC Singapore
-51.79.241.23:8443#SG OVH SINGAPOR DC Singapore
-103.253.145.105:443#SG Digital Ocean, Inc. Singapore
-165.22.102.89:443#SG DigitalOcean, LLC Singapore
-83.147.234.163:443#SG FIRST SERVER, SOCIEDAD LIMITADA Singapore
-168.144.96.147:443#SG DigitalOcean, LLC Singapore
-167.71.220.89:443#SG DigitalOcean, LLC Singapore
-185.81.28.39:443#SG AKILE LTD Singapore
-139.180.145.3:443#SG The Constant Company, LLC Singapore
-45.76.187.126:443#SG The Constant Company, LLC Singapore
-89.28.239.171:443#SG ByteVirt LLC Singapore
-178.128.223.148:443#SG DigitalOcean, LLC Singapore
-140.245.107.0:8443#SG Oracle Corporation Kampong Loyang
-146.190.87.188:443#SG DigitalOcean, LLC Singapore
-185.115.207.58:443#SG ByteVirt LLC Singapore
+159.223.95.46:443#SG DigitalOcean, LLC Singapore
+139.180.159.58:443#SG Cloudflare London, LLC Singapore
+188.253.125.122:443#SG Akari Networks (Singapore) Singapore
+129.226.213.65:443#SG ACEVILLE PTE.LTD. Singapore
+185.115.207.129:443#SG ByteVirt LLC Singapore
+157.245.198.117:443#SG DigitalOcean, LLC Singapore
+45.76.178.112:443#SG The Constant Company, LLC Singapore
+167.150.100.46:443#SG BrainStorm Network, Inc Singapore
+165.22.98.158:443#SG DigitalOcean, LLC Singapore
+43.156.181.203:443#SG 16 COLLYER QUAY Singapore
+134.185.91.72:443#SG Oracle Corporation Kampong Loyang
+45.32.109.225:443#SG The Constant Company, LLC Singapore
+134.209.108.21:443#SG DigitalOcean, LLC Singapore
+139.180.144.145:443#SG The Constant Company, LLC Singapore
+146.190.86.159:443#SG DigitalOcean, LLC Singapore
 168.144.41.69:443#SG DigitalOcean, LLC Singapore
 158.178.224.158:8443#SG Oracle Corporation Kampong Loyang
 207.148.73.18:443#SG The Constant Company, LLC Singapore
@@ -173,6 +173,21 @@
 139.180.220.87:443#SG The Constant Company, LLC Singapore
 172.236.135.14:443#SG Linode Singapore
 152.42.231.213:443#SG DigitalOcean, LLC Singapore
+129.212.232.171:443#SG DigitalOcean, LLC Singapore
+51.79.241.23:8443#SG OVH SINGAPOR DC Singapore
+103.253.145.105:443#SG Digital Ocean, Inc. Singapore
+165.22.102.89:443#SG DigitalOcean, LLC Singapore
+83.147.234.163:443#SG FIRST SERVER, SOCIEDAD LIMITADA Singapore
+168.144.96.147:443#SG DigitalOcean, LLC Singapore
+167.71.220.89:443#SG DigitalOcean, LLC Singapore
+185.81.28.39:443#SG AKILE LTD Singapore
+139.180.145.3:443#SG The Constant Company, LLC Singapore
+45.76.187.126:443#SG The Constant Company, LLC Singapore
+89.28.239.171:443#SG ByteVirt LLC Singapore
+178.128.223.148:443#SG DigitalOcean, LLC Singapore
+140.245.107.0:8443#SG Oracle Corporation Kampong Loyang
+146.190.87.188:443#SG DigitalOcean, LLC Singapore
+185.115.207.58:443#SG ByteVirt LLC Singapore
 172.93.219.9:443#SG LEASEWEB SINGAPORE PTE. LTD. Singapore
 103.248.228.240:443#SG Akari Networks Pte. Ltd. Singapore
 68.183.227.216:443#SG DigitalOcean, LLC Singapore
@@ -183,21 +198,21 @@
 174.138.24.13:443#SG DigitalOcean, LLC Singapore
 213.35.123.210:443#SG Oracle Corporation Kampong Loyang
 159.89.203.141:443#SG DigitalOcean, LLC Singapore
-167.172.90.175:443#SG DigitalOcean, LLC Singapore
-178.128.56.59:443#SG DigitalOcean, LLC Singapore
-51.79.248.128:443#SG OVH SINGAPOR DC Singapore
-143.198.203.199:443#SG DigitalOcean, LLC Singapore
-129.212.229.240:443#SG DigitalOcean, LLC Singapore
-156.244.57.227:443#SG DigitalOcean, LLC Singapore
-165.22.104.36:443#SG DigitalOcean, LLC Singapore
-69.8.133.6:443#SG Akari Networks (Singapore) Singapore
-188.166.247.45:443#SG DigitalOcean, LLC Singapore
-45.76.158.173:443#SG The Constant Company, LLC Singapore
-43.134.101.37:443#SG ACEVILLE PTE.LTD. Singapore
-104.234.174.220:443#SG 28 Kallang Place # 05-08 Singapore 339518 Singapore
-143.198.90.188:443#SG DigitalOcean, LLC Singapore
-128.1.186.60:443#SG ZENLA-1 Singapore
-5.223.51.2:443#SG Hetzner Online GmbH Singapore
+159.60.146.82:443#US Ashburn
+66.42.125.21:443#US Vultr Holdings, LLC Elk Grove Village
+216.128.154.87:8443#US The Constant Company, LLC Elk Grove Village
+64.181.218.67:443#US Oracle Corporation Chicago
+159.60.146.81:443#US Ashburn
+45.63.67.144:443#US The Constant Company, LLC Elk Grove Village
+149.28.127.111:443#US The Constant Company, LLC Elk Grove Village
+162.212.155.85:443#US Cloudfanatic.NET Chicago
+216.128.158.164:443#US The Constant Company, LLC Elk Grove Village
+72.13.122.137:443#US Total Uptime Technologies LLC Sterling
+216.128.158.222:443#US The Constant Company, LLC Elk Grove Village
+23.254.253.126:8443#US HostPapa Dallas
+185.9.27.150:443#US 3HCLOUD LLC Dallas
+192.227.206.116:2053#US RackNerd LLC Dallas
+192.227.206.116:8443#US RackNerd LLC Dallas
 31.59.139.134:2053#US CGI GLOBAL LIMITED Dallas
 31.59.139.134:8443#US CGI GLOBAL LIMITED Dallas
 38.114.101.73:8443#US Baxet Group Inc. Dallas
@@ -213,21 +228,6 @@
 209.126.81.110:2053#US Contabo Inc. St. Louis
 209.126.81.110:8443#US Contabo Inc. St. Louis
 64.177.113.100:443#US The Constant Company, LLC Elk Grove Village
-107.172.32.207:443#US HostPapa Elk Grove Village
-173.208.166.60:8443#US WholeSale Internet, Inc. Kansas City
-66.154.101.223:443#US ASSERTIVENET St. Louis
-193.233.87.136:8443#US 3HCLOUD LLC Dallas
-95.182.94.147:8443#US Cloud Software - FZCO Kansas City
-66.154.117.245:443#US ASSERTIVENET St. Louis
-66.154.108.187:443#US CYBERCON, INC. St. Louis
-95.182.93.56:443#US as56971 network Kansas City
-207.244.251.177:8443#US Contabo Inc. St. Louis
-193.233.87.133:2053#US 3HCLOUD LLC Dallas
-193.233.87.133:8443#US 3HCLOUD LLC Dallas
-95.182.94.163:2053#US Cloud Software - FZCO Kansas City
-95.182.94.163:8443#US Cloud Software - FZCO Kansas City
-185.92.181.218:2053#US as56971 network Kansas City
-185.92.181.218:8443#US as56971 network Kansas City
 108.61.242.146:443#US Vultr Holdings, LLC Elk Grove Village
 66.154.114.113:8443#US CYBERCON, INC. St. Louis
 45.38.3.247:443#US 3HCLOUD LLC Dallas
@@ -273,21 +273,6 @@
 158.94.173.107:443#US CNServer LLC North Kansas City
 195.211.98.169:2053#US GREEN FLOID LLC Chicago
 198.144.189.77:443#US HostPapa Buffalo
-159.60.146.82:443#US Ashburn
-66.42.125.21:443#US Vultr Holdings, LLC Elk Grove Village
-216.128.154.87:8443#US The Constant Company, LLC Elk Grove Village
-64.181.218.67:443#US Oracle Corporation Chicago
-159.60.146.81:443#US Ashburn
-45.63.67.144:443#US The Constant Company, LLC Elk Grove Village
-149.28.127.111:443#US The Constant Company, LLC Elk Grove Village
-162.212.155.85:443#US Cloudfanatic.NET Chicago
-216.128.158.164:443#US The Constant Company, LLC Elk Grove Village
-72.13.122.137:443#US Total Uptime Technologies LLC Sterling
-216.128.158.222:443#US The Constant Company, LLC Elk Grove Village
-23.254.253.126:8443#US HostPapa Dallas
-185.9.27.150:443#US 3HCLOUD LLC Dallas
-192.227.206.116:2053#US RackNerd LLC Dallas
-192.227.206.116:8443#US RackNerd LLC Dallas
 185.92.182.106:2083#US as56971 network Kansas City
 66.154.116.176:443#US ASSERTIVENET St. Louis
 158.94.173.145:443#US CNServer LLC North Kansas City
@@ -298,6 +283,21 @@
 45.41.207.63:443#US TNAHOSTING Chicago
 192.3.176.210:443#US HostPapa Buffalo
 192.3.176.210:8443#US HostPapa Buffalo
+198.46.190.116:8443#US RackNerd LLC Dallas
+216.22.30.7:2053#US Leaseweb USA, Inc. Manassas
+216.22.30.7:2083#US Leaseweb USA, Inc. Manassas
+216.22.30.7:8443#US Leaseweb USA, Inc. Manassas
+95.182.114.101:8443#US CGI GLOBAL LIMITED Kansas City
+107.172.32.207:443#US HostPapa Elk Grove Village
+173.208.166.60:8443#US WholeSale Internet, Inc. Kansas City
+66.154.101.223:443#US ASSERTIVENET St. Louis
+193.233.87.136:8443#US 3HCLOUD LLC Dallas
+95.182.94.147:8443#US Cloud Software - FZCO Kansas City
+66.154.117.245:443#US ASSERTIVENET St. Louis
+66.154.108.187:443#US CYBERCON, INC. St. Louis
+95.182.93.56:443#US as56971 network Kansas City
+207.244.251.177:8443#US Contabo Inc. St. Louis
+193.233.87.133:2053#US 3HCLOUD LLC Dallas
 151.247.219.89:8443#UK HOSTKEY B.V. London
 209.97.187.249:443#UK DigitalOcean, LLC London
 178.128.171.159:443#UK DigitalOcean, LLC London
@@ -313,36 +313,6 @@
 170.101.106.144:443#UK GLOBALTELEHOST Corp. London
 188.119.149.172:443#UK HZ Hosting Ltd London
 64.227.40.56:443#UK DigitalOcean, LLC London
-138.68.178.185:8443#UK DigitalOcean, LLC London
-159.65.51.189:443#UK DigitalOcean, LLC London
-159.65.51.189:2053#UK DigitalOcean, LLC London
-159.65.51.189:2083#UK DigitalOcean, LLC London
-159.65.51.189:2087#UK DigitalOcean, LLC London
-159.65.51.189:2096#UK DigitalOcean, LLC London
-159.65.51.189:8443#UK DigitalOcean, LLC London
-139.59.190.23:443#UK DigitalOcean, LLC London
-139.59.190.23:2053#UK DigitalOcean, LLC London
-139.59.190.23:2083#UK DigitalOcean, LLC London
-139.59.190.23:2087#UK DigitalOcean, LLC London
-139.59.190.23:2096#UK DigitalOcean, LLC London
-139.59.190.23:8443#UK DigitalOcean, LLC London
-57.128.177.198:443#UK OVH Ltd Erith
-57.128.177.198:8443#UK OVH Ltd Erith
-178.128.168.108:8443#UK DigitalOcean, LLC London
-152.114.193.130:8443#UK London
-57.128.178.42:443#UK OVH Ltd Erith
-57.128.178.42:8443#UK OVH Ltd Erith
-178.62.33.207:443#UK DigitalOcean, LLC London
-134.209.17.159:443#UK DigitalOcean, LLC London
-23.81.36.149:2053#UK Leaseweb UK Limited London
-23.81.36.149:2083#UK Leaseweb UK Limited London
-23.81.36.149:8443#UK Leaseweb UK Limited London
-181.214.140.146:8443#UK Iomart Managed Services Limited London
-138.68.178.185:443#UK DigitalOcean, LLC London
-138.68.178.185:2053#UK DigitalOcean, LLC London
-138.68.178.185:2083#UK DigitalOcean, LLC London
-138.68.178.185:2087#UK DigitalOcean, LLC London
-138.68.178.185:2096#UK DigitalOcean, LLC London
 64.227.40.56:2053#UK DigitalOcean, LLC London
 64.227.40.56:2083#UK DigitalOcean, LLC London
 64.227.40.56:2087#UK DigitalOcean, LLC London
@@ -358,21 +328,51 @@
 178.128.168.108:2083#UK DigitalOcean, LLC London
 178.128.168.108:2087#UK DigitalOcean, LLC London
 178.128.168.108:2096#UK DigitalOcean, LLC London
-138.68.179.125:443#UK DigitalOcean, LLC London
-138.68.179.125:2053#UK DigitalOcean, LLC London
-138.68.179.125:2083#UK DigitalOcean, LLC London
-138.68.179.125:2087#UK DigitalOcean, LLC London
-138.68.179.125:2096#UK DigitalOcean, LLC London
-138.68.179.125:8443#UK DigitalOcean, LLC London
-104.248.160.220:443#UK DigitalOcean, LLC London
-165.232.39.158:443#UK DigitalOcean, LLC London
-165.232.39.158:2053#UK DigitalOcean, LLC London
-165.232.39.158:2083#UK DigitalOcean, LLC London
-165.232.39.158:2087#UK DigitalOcean, LLC London
-165.232.39.158:2096#UK DigitalOcean, LLC London
-165.232.39.158:8443#UK DigitalOcean, LLC London
-144.126.199.79:443#UK DigitalOcean, LLC London
-144.126.199.79:2053#UK DigitalOcean, LLC London
+178.128.168.108:8443#UK DigitalOcean, LLC London
+152.114.193.130:8443#UK London
+57.128.178.42:443#UK OVH Ltd Erith
+57.128.178.42:8443#UK OVH Ltd Erith
+178.62.33.207:443#UK DigitalOcean, LLC London
+134.209.17.159:443#UK DigitalOcean, LLC London
+23.81.36.149:2053#UK Leaseweb UK Limited London
+23.81.36.149:2083#UK Leaseweb UK Limited London
+23.81.36.149:8443#UK Leaseweb UK Limited London
+181.214.140.146:8443#UK Iomart Managed Services Limited London
+138.68.178.185:443#UK DigitalOcean, LLC London
+138.68.178.185:2053#UK DigitalOcean, LLC London
+138.68.178.185:2083#UK DigitalOcean, LLC London
+138.68.178.185:2087#UK DigitalOcean, LLC London
+138.68.178.185:2096#UK DigitalOcean, LLC London
+138.68.178.185:8443#UK DigitalOcean, LLC London
+159.65.51.189:443#UK DigitalOcean, LLC London
+159.65.51.189:2053#UK DigitalOcean, LLC London
+159.65.51.189:2083#UK DigitalOcean, LLC London
+159.65.51.189:2087#UK DigitalOcean, LLC London
+159.65.51.189:2096#UK DigitalOcean, LLC London
+159.65.51.189:8443#UK DigitalOcean, LLC London
+139.59.190.23:443#UK DigitalOcean, LLC London
+139.59.190.23:2053#UK DigitalOcean, LLC London
+139.59.190.23:2083#UK DigitalOcean, LLC London
+139.59.190.23:2087#UK DigitalOcean, LLC London
+139.59.190.23:2096#UK DigitalOcean, LLC London
+139.59.190.23:8443#UK DigitalOcean, LLC London
+57.128.177.198:443#UK OVH Ltd Erith
+57.128.177.198:8443#UK OVH Ltd Erith
+134.122.110.17:443#UK DigitalOcean, LLC London
+94.184.14.242:443#UK GLOBALTELEHOST Corp. London
+161.35.46.34:443#UK DigitalOcean, LLC London
+161.35.46.34:2053#UK DigitalOcean, LLC London
+161.35.46.34:2083#UK DigitalOcean, LLC London
+161.35.46.34:2087#UK DigitalOcean, LLC London
+161.35.46.34:2096#UK DigitalOcean, LLC London
+161.35.46.34:8443#UK DigitalOcean, LLC London
+157.245.34.181:443#UK DigitalOcean, LLC London
+161.35.175.73:443#UK DigitalOcean, LLC London
+161.35.175.73:2053#UK DigitalOcean, LLC London
+161.35.175.73:2083#UK DigitalOcean, LLC London
+161.35.175.73:2087#UK DigitalOcean, LLC London
+161.35.175.73:2096#UK DigitalOcean, LLC London
+161.35.175.73:8443#UK DigitalOcean, LLC London
 144.126.199.79:2083#UK DigitalOcean, LLC London
 144.126.199.79:2087#UK DigitalOcean, LLC London
 144.126.199.79:2096#UK DigitalOcean, LLC London
@@ -388,16 +388,16 @@
 165.232.108.151:2087#UK DigitalOcean, LLC London
 165.232.108.151:2096#UK DigitalOcean, LLC London
 165.232.108.151:8443#UK DigitalOcean, LLC London
-134.122.110.17:443#UK DigitalOcean, LLC London
-94.184.14.242:443#UK GLOBALTELEHOST Corp. London
-161.35.46.34:443#UK DigitalOcean, LLC London
-161.35.46.34:2053#UK DigitalOcean, LLC London
-161.35.46.34:2083#UK DigitalOcean, LLC London
-161.35.46.34:2087#UK DigitalOcean, LLC London
-161.35.46.34:2096#UK DigitalOcean, LLC London
-161.35.46.34:8443#UK DigitalOcean, LLC London
-157.245.34.181:443#UK DigitalOcean, LLC London
-161.35.175.73:443#UK DigitalOcean, LLC London
+138.68.179.125:443#UK DigitalOcean, LLC London
+138.68.179.125:2053#UK DigitalOcean, LLC London
+138.68.179.125:2083#UK DigitalOcean, LLC London
+138.68.179.125:2087#UK DigitalOcean, LLC London
+138.68.179.125:2096#UK DigitalOcean, LLC London
+138.68.179.125:8443#UK DigitalOcean, LLC London
+104.248.160.220:443#UK DigitalOcean, LLC London
+165.232.39.158:443#UK DigitalOcean, LLC London
+165.232.39.158:2053#UK DigitalOcean, LLC London
+165.232.39.158:2083#UK DigitalOcean, LLC London
 45.59.131.117:443#AU Mammoth Media Pty Ltd Sydney
 206.168.133.137:443#AU SMC Server Solutions Sydney
 103.43.75.82:443#AU The Constant Company, LLC Sydney
@@ -413,6 +413,15 @@
 45.32.243.13:443#AU The Constant Company, LLC Sydney
 54.253.246.242:8443#AU Amazon.com, Inc. Sydney
 193.177.220.44:443#AU 365 Group LLC Sydney
+172.236.62.238:443#AU Linode Melbourne
+161.33.90.181:443#AU Oracle Corporation Melbourne
+207.211.157.214:443#AU Oracle Corporation Melbourne
+58.96.64.83:443#AU SUPERLOOP (AUSTRALIA) PTY LTD Melbourne
+139.84.205.230:443#AU The Constant Company, LLC Melbourne
+46.250.244.12:443#AU Contabo Asia Private Limited Sydney
+176.97.68.17:443#AU 3NT Solutions LLP Sydney
+154.26.156.24:443#AU Contabo Asia Private Limited Sydney
+46.250.242.104:443#AU Contabo Asia Private Limited Sydney
 139.99.155.180:443#AU OVH SYD DC Sydney
 139.99.134.170:443#AU OVH SYD DC Sydney
 170.64.197.150:443#AU Digital Ocean, Inc. Sydney
@@ -428,12 +437,3 @@
 139.84.194.67:8443#AU The Constant Company, LLC Melbourne
 207.148.81.4:443#AU Vultr Holdings, LLC Sydney
 202.27.229.7:443#AU SUPERLOOP (AUSTRALIA) PTY LTD Melbourne
-172.236.62.238:443#AU Linode Melbourne
-161.33.90.181:443#AU Oracle Corporation Melbourne
-207.211.157.214:443#AU Oracle Corporation Melbourne
-58.96.64.83:443#AU SUPERLOOP (AUSTRALIA) PTY LTD Melbourne
-139.84.205.230:443#AU The Constant Company, LLC Melbourne
-46.250.244.12:443#AU Contabo Asia Private Limited Sydney
-176.97.68.17:443#AU 3NT Solutions LLP Sydney
-154.26.156.24:443#AU Contabo Asia Private Limited Sydney
-46.250.242.104:443#AU Contabo Asia Private Limited Sydney
